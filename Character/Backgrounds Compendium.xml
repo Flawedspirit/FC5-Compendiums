@@ -386,28 +386,4 @@
             <text>You know the secret patterns and flow to cities and can find passages through the urban sprawl that others would miss. When you are not in combat, you (and companions you lead) can travel between any two locations in the city twice as fast as your speed would normally allow.\n\nSource: Player's Handbook, page 141</text>
         </trait>
     </background>
-<!--    <background>
-        <name></name>
-        <proficiency></proficiency>
-        <trait>
-            <name>Skill Proficiencies</name>
-            <text></text>
-        </trait>
-        <trait>
-            <name>Tool Proficiencies</name>
-            <text></text>
-        </trait>
-        <trait>
-            <name>Languages</name>
-            <text></text>
-        </trait>
-        <trait>
-            <name>Equipment</name>
-            <text></text>
-        </trait>
-        <trait>
-            <name>Feature: </name>
-            <text></text>
-        </trait>
-    </background>-->
 </compendium>
