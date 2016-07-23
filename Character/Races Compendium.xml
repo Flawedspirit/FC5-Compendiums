@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Compiled by Flawedspirit. Version: 16070801 -->
+<!-- Compiled by Flawedspirit. Version: 16070802 -->
 <compendium version="5">
     <race>
         <name>Aarakocra</name>
@@ -618,7 +618,7 @@
         </trait>
     </race>
     <race>
-        <name>Half-Elf (Moon elf or sun elf descent)</name>
+        <name>Half-Elf (Moon elf/sun elf descent)</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Cha 2</ability>
