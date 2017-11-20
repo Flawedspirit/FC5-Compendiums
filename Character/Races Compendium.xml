@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- Compiled by Flawedspirit. Version: 16070802 -->
+<!-- Compiled by Flawedspirit. Version: 17112001 -->
 <compendium version="5">
     <race>
         <name>Aarakocra</name>
         <size>M</size>
         <speed>25</speed>
         <ability>Dex 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
         <trait>
             <name>Flight</name>
             <text>You have a flying speed of 50 feet. To use this speed, you can't be wearing medium or heavy armor.</text>
@@ -20,24 +24,37 @@
         </trait>
     </race>
     <race>
-        <name>Aasimar</name>
+        <name>Aasimar (Fallen)</name>
         <size>M</size>
         <speed>30</speed>
-        <ability>Cha 2, Wis 1</ability>
+        <ability>Cha 2, Str 1</ability>
         <trait>
-            <name>Superior Darkvision</name>
-            <text>Thanks to your celestial heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and your Strength score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Celestial Resistance</name>
             <text>You have resistance to necrotic damage and radiant damage.</text>
         </trait>
         <trait>
-            <name>Celestial Legacy</name>
-            <text>You know the light cantrip. Once you reach 3rd level, you can cast the lesser restoration spell once with this trait, and you regain the ability to do so when you finish a long rest. Once you reach 5th level, you can cast the daylight spell once with this trait as a 3rd-level spell, and you regain the ability to do so when you finish a long rest. Charisma is your spellcasting ability for these spells.\n</text>
-            <text>Daylight: Player's Handbook page 230.</text>
-            <text>Lesser restoration: Player's Handbook page 255.</text>
-            <text>Light: Player's Handbook page 255.</text>
+            <name>Healing Hands</name>
+            <text>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.</text>
+        </trait>
+        <trait>
+            <name>Light Bearer</name>
+            <text>You know the light cantrip. Charisma is your spellcasting ability for it.</text>
+            <text />
+            <text>Light: Player's Handbook page 255</text>
+        </trait>
+        <trait>
+            <name>Necrotic Shroud</name>
+            <text>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to turn into pools of darkness and two skeletal, ghostly, flightless wings to sprout from your back. The instant you transform, other creatures within 10 feet of you that can see you must each succeed on a Charisma saving throw (DC 8 + your proficiency bonus + your Charisma modifier) or become frightened of you until the end of your next turn.</text>
+            <text>    Your transformation lasts for 1 minute or until you end it as a bonus action. During it, once on each of your turns, you can deal extra necrotic damage to one target when you deal damage to it with an attack or a spell. The extra necrotic damage equals your level.</text>
+            <text>    Once you use this trait, you can't use it again until you finish a long rest.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -45,10 +62,124 @@
         </trait>
     </race>
     <race>
-        <name>Changeling</name>
+        <name>Aasimar (Protector)</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Cha 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Celestial Resistance</name>
+            <text>You have resistance to necrotic damage and radiant damage.</text>
+        </trait>
+        <trait>
+            <name>Healing Hands</name>
+            <text>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.</text>
+        </trait>
+        <trait>
+            <name>Light Bearer</name>
+            <text>You know the light cantrip. Charisma is your spellcasting ability for it.</text>
+            <text />
+            <text>Light: Player's Handbook page 255</text>
+        </trait>
+        <trait>
+            <name>Radiant Soul</name>
+            <text>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing your eyes to glimmer and two luminous, incorporeal wings to sprout from your back.</text>
+            <text>    Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you have a flying speed of 30 feet, and once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</text>
+            <text>    Once you use this trait, you can't use it again until you finish a long rest.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Celestial.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Aasimar (Scourge)</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Cha 2, Con 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>Blessed with a radiant soul, your vision can easily cut through darkness. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Celestial Resistance</name>
+            <text>You have resistance to necrotic damage and radiant damage.</text>
+        </trait>
+        <trait>
+            <name>Healing Hands</name>
+            <text>As an action, you can touch a creature and cause it to regain a number of hit points equal to your level. Once you use this trait, you can't use it again until you finish a long rest.</text>
+        </trait>
+        <trait>
+            <name>Light Bearer</name>
+            <text>You know the light cantrip. Charisma is your spellcasting ability for it.</text>
+            <text />
+            <text>Light: Player's Handbook page 255</text>
+        </trait>
+        <trait>
+            <name>Radiant Consumption</name>
+            <text>Starting at 3rd level, you can use your action to unleash the divine energy within yourself, causing a searing light to radiate from you, pour out of your eyes and mouth, and threaten to char you.</text>
+            <text>    Your transformation lasts for 1 minute or until you end it as a bonus action. During it, you shed bright light in a 10-foot radius and dim light for an additional 10 feet, and at the end of each of your turns, you and each creature within 10 feet of you take radiant damage equal to half your level (rounded up). In addition, once on each of your turns, you can deal extra radiant damage to one target when you deal damage to it with an attack or a spell. The extra radiant damage equals your level.</text>
+            <text>    Once you use this trait, you can't use it again until you finish a long rest.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Celestial.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Bugbear</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Str 2, Dex 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Dexterity score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Long-Limbed</name>
+            <text>When you make a melee attack on your turn, your reach for it is 5 feet greater than normal.</text>
+        </trait>
+        <trait>
+            <name>Powerful Build</name>
+            <text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</text>
+        </trait>
+        <trait>
+            <name>Sneaky</name>
+            <text>You are proficient in the Stealth skill.</text>
+        </trait>
+        <trait>
+            <name>Surprise Attack</name>
+            <text>If you surprise a creature and hit it with an attack on your first turn in combat, the attack deals an extra 2d6 damage to it. You can use this trait only once per combat.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Goblin.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Changeling [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 1, Cha 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 1, and your Charisma score increases by 1.</text>
+        </trait>
         <trait>
             <name>Duplicity</name>
             <text>You gain proficiency in the Deception skill.</text>
@@ -68,16 +199,18 @@
         <speed>30</speed>
         <ability>Str 2, Cha 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Charisma score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Draconic Ancestry</name>
-            <text>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table. Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.\n</text>
-            <text>Draconic Ancestry table: Player's Handbook page 34.</text>
+            <text>You have draconic ancestry. Choose one type of dragon from the Draconic Ancestry table (Player's Handbook page 34). Your breath weapon and damage resistance are determined by the dragon type, as shown in the table.</text>
         </trait>
         <trait>
             <name>Breath Weapon</name>
             <text>You can use your action to exhale destructive energy. Your draconic ancestry determines the size, shape, and damage type of the exhalation.</text>
-            <text>&#009;When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</text>
-            <text>&#009;After you use your breath weapon, you can't use it again until you complete a short or long rest.\n</text>
-            <text>Draconic Ancestry table: Player's Handbook page 34.</text>
+            <text>    When you use your breath weapon, each creature in the area of the exhalation must make a saving throw, the type of which is determined by your draconic ancestry. The DC for this saving throw equals 8 + your Constitution modifier + your proficiency bonus. A creature takes 2d6 damage on a failed save, and half as much damage on a successful one. The damage increases to 3d6 at 6th level, 4d6 at 11th level, and 5d6 at 16th level.</text>
+            <text>    After you use your breath weapon, you can't use it again until you complete a short or long rest.</text>
         </trait>
         <trait>
             <name>Damage Resistance</name>
@@ -93,6 +226,10 @@
         <size>M</size>
         <speed>25</speed>
         <ability>Con 2, Str 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Strength score increases by 1.</text>
+        </trait>
         <trait>
             <name>Superior Darkvision</name>
             <text>Accustomed to life deep underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -119,9 +256,10 @@
         </trait>
         <trait>
             <name>Duergar Magic</name>
-            <text>When you reach 3rd level, you can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.\n</text>
-            <text>Enlarge/reduce; Player's Handbook page 237.</text>
-            <text>Invisibility; Player's Handbook page 254.</text>
+            <text>When you reach 3rd level, you can cast the enlarge/reduce spell on yourself once with this trait, using only the spell's enlarge option. When you reach 5th level, you can cast the invisibility spell on yourself once with this trait. You don't need material components for either spell, and you can't cast them while you're in direct sunlight, although sunlight has no effect on them once cast. You regain the ability to cast these spells with this trait when you finish a long rest. Intelligence is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Enlarge/reduce: Player's Handbook page 237</text>
+            <text>Invisibility: Player's Handbook page 254</text>
         </trait>
         <trait>
             <name>Sunlight Sensitivity</name>
@@ -133,6 +271,10 @@
         <size>M</size>
         <speed>25</speed>
         <ability>Con 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -168,6 +310,10 @@
         <speed>25</speed>
         <ability>Str 2, Con 2</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Constitution score increases by 2.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -202,6 +348,10 @@
         <speed>30</speed>
         <ability>Dex 2, Cha 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Charisma score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Superior Darkvision</name>
             <text>Accustomed to life deep underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -227,9 +377,10 @@
         </trait>
         <trait>
             <name>Drow Magic</name>
-            <text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.\n</text>
-            <text>Darkness; Player's Handbook page 230.</text>
-            <text>Faerie fire; Player's Handbook page 239.</text>
+            <text>You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Darkness: Player's Handbook page 230</text>
+            <text>Faerie fire: Player's Handbook page 239</text>
         </trait>
         <trait>
             <name>Drow Weapon Training</name>
@@ -241,6 +392,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -267,8 +422,9 @@
         </trait>
         <trait>
             <name>Feystep</name>
-            <text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.\n</text>
-            <text>Misty step; Player's Handbook page 260.</text>
+            <text>You can cast the misty step spell once using this trait. You regain the ability to do so when you finish a short or long rest.</text>
+            <text />
+            <text>Misty step: Player's Handbook page 260</text>
         </trait>
     </race>
     <race>
@@ -276,6 +432,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -311,6 +471,10 @@
         <speed>35</speed>
         <ability>Dex 2, Wis 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Accustomed to twilit forests and the night sky, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -344,10 +508,47 @@
         </trait>
     </race>
     <race>
+        <name>Firbolg</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Wis 2, Str 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Wisdom score increases by 2, and your Strength score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Firbolg Magic</name>
+            <text>You can cast detect magic and disguise self with this trait, using Wisdom as your spellcasting ability for them. Once you cast either spell, you can't cast it again until you finish a short or long rest. When you use this version of disguise self, you can seem up to 3 feet shorter than normal, allowing you to more easily blend in with humans and elves.</text>
+            <text />
+            <text>Detect magic: Player's Handbook page 231</text>
+            <text>Disguise self: Player's Handbook page 233</text>
+        </trait>
+        <trait>
+            <name>Hidden Step</name>
+            <text>As a bonus action, you can magically turn invisible until the start of your next turn or until you attack, make a damage roll, or force someone to make a saving throw. Once you use this trait, you can't use it again until you finish a short or long rest.</text>
+        </trait>
+        <trait>
+            <name>Powerful Build</name>
+            <text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</text>
+        </trait>
+        <trait>
+            <name>Speech of Beast and Leaf</name>
+            <text>You have the ability to communicate in a limited manner with beasts and plants. They can understand the meaning of your words, though you have no special ability to understand them in return. You have advantage on all Charisma checks you make to influence them.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common, Elvish, and Giant.</text>
+        </trait>
+    </race>
+    <race>
         <name>Genasi (Air)</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Con 2, Dex 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Dexterity score increases by 1.</text>
+        </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
@@ -358,8 +559,9 @@
         </trait>
         <trait>
             <name>Mingle with the Wind</name>
-            <text>You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.\n</text>
-            <text>Levitate; Player's Handbook page 255.</text>
+            <text>You can cast the levitate spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</text>
+            <text />
+            <text>Levitate: Player's Handbook page 255</text>
         </trait>
     </race>
     <race>
@@ -367,6 +569,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Con 2, Str 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Strength score increases by 1.</text>
+        </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
@@ -377,8 +583,9 @@
         </trait>
         <trait>
             <name>Merge with Stone</name>
-            <text>You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.\n</text>
-            <text>Pass without trace; Player's Handbook page 264.</text>
+            <text>You can cast the pass without trace spell once with this trait, requiring no material components, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for this spell.</text>
+            <text />
+            <text>Pass without trace: Player's Handbook page 264</text>
         </trait>
     </race>
     <race>
@@ -386,6 +593,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Con 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
@@ -396,9 +607,10 @@
         </trait>
         <trait>
             <name>Reach to the Blaze</name>
-            <text>You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.\n</text>
-            <text>Burning hands; Player's Handbook page 220.</text>
-            <text>Produce flame; Player's Handbook page 269.</text>
+            <text>You know the produce flame cantrip. Once you reach 3rd level, you can cast the burning hands spell once with this trait as a 1st-level spell, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Burning hands: Player's Handbook page 220</text>
+            <text>Produce flame: Player's Handbook page 269</text>
         </trait>
     </race>
     <race>
@@ -406,6 +618,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Con 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and Primordial. Primordial is a guttural language, filled with harsh syllables and hard consonants.</text>
@@ -424,9 +640,10 @@
         </trait>
         <trait>
             <name>Call to the Wave</name>
-            <text>You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.\n</text>
-            <text>Create or destroy water; Player's Handbook page 229.</text>
-            <text>Shape water; Elemental Evil Player's Companion page 21.</text>
+            <text>You know the shape water cantrip. When you reach 3rd level, you can cast the create or destroy water spell as a 2nd-level spell once with this trait, and you regain the ability to cast it this way when you finish a long rest. Constitution is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Create or destroy water: Player's Handbook page 229</text>
+            <text>Shape water: Elemental Evil Player's Companion page 21</text>
         </trait>
     </race>
     <race>
@@ -434,6 +651,10 @@
         <size>S</size>
         <speed>25</speed>
         <ability>Int 2, Dex 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Intelligence score increases by 2, and your Dexterity score increases by 1.</text>
+        </trait>
         <trait>
             <name>Superior Darkvision</name>
             <text>Accustomed to life deep underground, you have superior vision in dark and dim conditions. You can see in dim light within 120 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -457,6 +678,10 @@
         <speed>25</speed>
         <ability>Int 2, Dex 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Intelligence score increases by 2, and your Dexterity score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -470,8 +695,9 @@
         </trait>
         <trait>
             <name>Natural Illusionist</name>
-            <text>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.\n</text>
-            <text>Minor illusion: Player's Handbook page 260.</text>
+            <text>You know the minor illusion cantrip. Intelligence is your spellcasting ability for it.</text>
+            <text />
+            <text>Minor illusion: Player's Handbook page 260</text>
         </trait>
         <trait>
             <name>Speak with Small Beasts</name>
@@ -483,6 +709,10 @@
         <size>S</size>
         <speed>25</speed>
         <ability>Int 2, Con 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Intelligence score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Accustomed to life underground, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -501,10 +731,37 @@
         </trait>
         <trait>
             <name>Tinker</name>
-            <text>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.\n</text>
-            <text>Clockwork toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.\n</text>
-            <text>Fire Starter. The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.\n</text>
-            <text>Music Box. When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</text>
+            <text>You have proficiency with artisan's tools (tinker's tools). Using those tools, you can spend 1 hour and 10 gp worth of materials to construct a Tiny clockwork device (AC 5, 1 hp). The device ceases to function after 24 hours (unless you spend 1 hour repairing it to keep the device functioning), or when you use your action to dismantle it; at that time, you can reclaim the materials used to create it. You can have up to three such devices active at a time.</text>
+            <text>Clockwork toy. This toy is a clockwork animal, monster, or person, such as a frog, mouse, bird, dragon, or soldier. When placed on the ground, the toy moves 5 feet across the ground on each of your turns in a random direction. It makes noises as appropriate to the creature it represents.</text>
+            <text />
+            <text>Fire Starter: The device produces a miniature flame, which you can use to light a candle, torch, or campfire. Using the device requires your action.</text>
+            <text>Music Box: When opened, this music box plays a single song at a moderate volume. The box stops playing when it reaches the song's end or when it is closed.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Goblin</name>
+        <size>S</size>
+        <speed>30</speed>
+        <ability>Dex 2, Con 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Fury of the Small</name>
+            <text>When you damage a creature with an attack or a spell and the creature's size is larger than yours, you can cause the attack or spell to deal extra damage to the creature. The extra damage equals your level. Once you finish this trait, you can't use it again until you finish a short or long rest. </text>
+        </trait>
+        <trait>
+            <name>Nimble Escape</name>
+            <text>You can take the Disengage or Hide action as a bonus action on each of your turns.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Goblin.</text>
         </trait>
     </race>
     <race>
@@ -512,6 +769,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Str 2, Con 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
         <trait>
             <name>Natural Athlete</name>
             <text>You have proficiency in the Athletics skill.</text>
@@ -578,8 +839,8 @@
         </trait>
         <trait>
             <name>Variant Feature</name>
-            <text>Choose one of the below options:\n</text>
-            <text>Skill Versatility. You gain proficiency in two skills of your choice.\n</text>
+            <text>Choose one of the below options:</text>
+            <text>Skill Versatility. You gain proficiency in two skills of your choice.</text>
             <text>Swim. You gain a swimming speed of 30 feet.</text>
         </trait>
         <trait>
@@ -606,11 +867,12 @@
         </trait>
         <trait>
             <name>Variant Feature</name>
-            <text>Choose one of the below options:\n</text>
-            <text>Skill Versatility. You gain proficiency in two skills of your choice.\n</text>
-            <text>Drow Magic. You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.\n</text>
-            <text>Darkness; Player's Handbook page 230.</text>
-            <text>Faerie fire; Player's Handbook page 239.</text>
+            <text>Choose one of the below options:</text>
+            <text>Skill Versatility. You gain proficiency in two skills of your choice.</text>
+            <text>Drow Magic. You know the dancing lights cantrip. When you reach 3rd level, you can cast the faerie fire spell once per day; you must finish a long rest in order to cast the spell again using this trait. When you reach 5th level, you can also cast the darkness spell once per day; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Darkness: Player's Handbook page 230</text>
+            <text>Faerie fire: Player's Handbook page 239</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -636,9 +898,9 @@
         </trait>
         <trait>
             <name>Variant Feature</name>
-            <text>Choose one of the below options:\n</text>
-            <text>Skill Versatility. You gain proficiency in two skills of your choice.\n</text>
-            <text>Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow.\n</text>
+            <text>Choose one of the below options:</text>
+            <text>Skill Versatility. You gain proficiency in two skills of your choice.</text>
+            <text>Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
             <text>Cantrip. You know one cantrip of your choice from the wizard spellcasting list. Intelligence is your spellcasting ability for it.</text>
         </trait>
         <trait>
@@ -665,10 +927,10 @@
         </trait>
         <trait>
             <name>Variant Feature</name>
-            <text>Choose one of the below options:\n</text>
-            <text>Skill Versatility. You gain proficiency in two skills of your choice.\n</text>
-            <text>Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow.\n</text>
-            <text>Fleet of Foot. Your base walking speed increases to 35 feet.\n</text>
+            <text>Choose one of the below options:</text>
+            <text>Skill Versatility. You gain proficiency in two skills of your choice.</text>
+            <text>Elf Weapon Training. You have proficiency with the longsword, shortsword, shortbow, and longbow.</text>
+            <text>Fleet of Foot. Your base walking speed increases to 35 feet.</text>
             <text>Mask of the Wild. You can attempt to hide even when you are only lightly obscured by foliage, heavy rain, falling snow, mist, and other natural phenomena.</text>
         </trait>
         <trait>
@@ -681,6 +943,10 @@
         <size>S</size>
         <speed>25</speed>
         <ability>Dex 2, Cha 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Charisma score increases by 1.</text>
+        </trait>
         <trait>
             <name>Lucky</name>
             <text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
@@ -708,6 +974,10 @@
         <speed>25</speed>
         <ability>Dex 2, Con 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Lucky</name>
             <text>When you roll a 1 on an attack roll, ability check, or saving throw, you can reroll the die and must use the new roll.</text>
         </trait>
@@ -734,6 +1004,10 @@
         <speed>30</speed>
         <ability>Str 2, Con 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Constitution score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Thanks to your orc blood, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -755,10 +1029,40 @@
         </trait>
     </race>
     <race>
+        <name>Hobgoblin</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Con 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Martial Training</name>
+            <text>You are proficient with two martial weapons of your choice and with light armor.</text>
+        </trait>
+        <trait>
+            <name>Saving Face</name>
+            <text>Hobgoblins are careful not to show weakness in front of their allies, for fear of losing status. If you miss with an attack roll or fail an ability check or a saving throw, you can gain a bonus to the roll equal to the number of allies you can see within 30 feet of you (maximum bonus of +5). Once you use this trait, you can't use it again until you finish a short or long rest.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Goblin.</text>
+        </trait>
+    </race>
+    <race>
         <name>Human</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Str 1, Dex 1, Con 1, Int 1, Wis 1, Cha 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your ability scores each increase by 1.</text>
+        </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and one extra language of your choice. Humans typically learn the languages of other peoples they deal with, including obscure dialects. They are fond of sprinkling their speech with words borrowed from other tongues: Orc curses, Elvish musical expressions, Dwarvish military phrases, and so on.</text>
@@ -786,10 +1090,112 @@
         </trait>
     </race>
     <race>
-        <name>Minotaur</name>
+        <name>Kenku</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Dex 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Expert Forgery</name>
+            <text>You can duplicate other creatures' handwriting and craftwork. You have advantage on all checks made to produce forgeries or duplicates of existing objects.</text>
+        </trait>
+        <trait>
+            <name>Kenku Training</name>
+            <text>You are proficient in your choice of two of the following skills: Acrobatics, Deception, Stealth, and Sleight of Hand.</text>
+        </trait>
+        <trait>
+            <name>Mimicry</name>
+            <text>You can mimic sounds you have heard, including voices. A creature that hears the sounds you make can tell they are imitations with a successful Wisdom (Insight) check opposed by your Charisma (Deception) check.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can read and write Common and Auran, but you can speak only by using your Mimicry trait.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Kobold</name>
+        <size>S</size>
+        <speed>30</speed>
+        <ability>Dex 2, Str -2</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Strength score is reduced by 2.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Grovel, Cower, and Beg</name>
+            <text>As an action on your turn, you can cower pathetically to distract nearby foes. Until the end of your next turn, your allies gain advantage on attack rolls against enemies within 10 feet of you that can see you. Once you use this trait, you can't use it again until you finish a short or long rest.</text>
+        </trait>
+        <trait>
+            <name>Pack Tactics</name>
+            <text>You have advantage on an attack roll against a creature if at least one of your allies is within 5 feet of the creature and the ally isn't incapacitated.</text>
+        </trait>
+        <trait>
+            <name>Sunlight Sensitivity</name>
+            <text>You have disadvantage on attack rolls and on Wisdom (Perception) checks that rely on sight when you, the target of your attack, or whatever you are trying to perceive is in direct sunlight.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Draconic.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Lizardfolk</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Con 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Constitution score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Swim</name>
+            <text>You have a swimming speed of 30 feet.</text>
+        </trait>
+        <trait>
+            <name>Bite</name>
+            <text>Your fanged maw is a natural weapon, which you can use to make unarmed strikes. If you hit with it, you deal piercing damage equal to 1d6 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+        </trait>
+        <trait>
+            <name>Cunning Artisan</name>
+            <text>As part of a short rest, you can harvest bone and hide from a slain beast, construct, dragon, monstrosity, or plant creature of size Small or larger to create one of the following items: a shield, a club, a javelin, or ld4 darts or blowgun needles. To use this trait, you need a blade, such as a dagger, or appropriate artisan's tools, such as leatherworker's tools.</text>
+        </trait>
+        <trait>
+            <name>Hold Breath</name>
+            <text>You can hold your breath for up to 15 minutes at a time.</text>
+        </trait>
+        <trait>
+            <name>Hunter's Lore</name>
+            <text>You gain proficiency with two of the following skills of your choice: Animal Handling, Nature, Perception, Stealth, and Survival.</text>
+        </trait>
+        <trait>
+            <name>Natural Armor</name>
+            <text>You have tough, scaly skin. When you aren't wearing armor, your AC is 13 + your Dexterity modifier. You can use your natural armor to determine your AC if the armor you wear would leave you with a lower AC. A shield's benefits apply as normal while you use your natural armor.</text>
+        </trait>
+        <trait>
+            <name>Hungry Jaws</name>
+            <text>In battle, you can throw yourself into a vicious feeding frenzy. As a bonus action, you can make a special attack with your bite. If the attack hits, it deals its normal damage, and you gain temporary hit points (minimum of 1) equal to your Constitution modifier, and you can't use this trait again until you finish a short or long rest.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Draconic.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Minotaur [UA</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Str 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 1.</text>
+        </trait>
         <trait>
             <name>Conqueror's Virtue</name>
             <text>From a young age, you focused on one of the three virtues of strength, cunning, or intellect. Your choice of Strength, Intelligence, or Wisdom increases by 1.</text>
@@ -820,19 +1226,53 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Beasthide)</name>
+        <name>Orc</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Str 2, Con 1, Int -2</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, your Constitution score increases by 1, and your Intelligence score is reduced by 2.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Aggressive</name>
+            <text>As a bonus action, you can move up to your speed toward an enemy of your choice that you can see or hear. You must end this move closer to the enemy than you started.</text>
+        </trait>
+        <trait>
+            <name>Menacing</name>
+            <text>You are trained in the Intimidation skill.</text>
+        </trait>
+        <trait>
+            <name>Powerful Build</name>
+            <text>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Orc.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Shifter (Beasthide) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 1, Con 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 1, and your Constitution score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain a +1 bonus to AC.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain a +1 bonus to AC.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -840,19 +1280,23 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Cliffwalk)</name>
+        <name>Shifter (Cliffwalk) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 2</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain a climb speed of 30 feet.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain a climb speed of 30 feet.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -860,19 +1304,23 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Longstride)</name>
+        <name>Shifter (Longstride) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 2</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can use the Dash action as a bonus action.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can use the Dash action as a bonus action.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -880,19 +1328,23 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Longtooth)</name>
+        <name>Shifter (Longtooth) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Str 1, Dex 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 1, and your Dexterity score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can make a bite attack as an action. This is melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also grappled.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can make a bite attack as an action. This is melee weapon attack that uses Strength for its attack roll and damage bonus and deals 1d6 piercing damage. If this attack hits a target that is your size or smaller, the target is also grappled.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -900,19 +1352,23 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Razorclaw)</name>
+        <name>Shifter (Razorclaw) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 2</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can make an unarmored strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you can make an unarmored strike as a bonus action. You can use your Dexterity for its attack roll and damage bonus, and this attack deals slashing damage.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
@@ -920,10 +1376,14 @@
         </trait>
     </race>
     <race>
-        <name>Shifter (Wildhunt)</name>
+        <name>Shifter (Wildhunt) [UA]</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Dex 1, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 1, and your Wisdom score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Your lycanthropic heritage grants you the ability to see in dark conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -931,12 +1391,42 @@
         <trait>
             <name>Shifting</name>
             <text>On your turn, you can shift as a bonus action. Shifting lasts for 1 minute or until you end it on your turn as a bonus action.</text>
-            <text>&#009;While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain advantage on all Wisdon-based checks and saving throws.</text>
-            <text>&#009;You must finish a short or long rest before you can shift again.</text>
+            <text>    While shifting, you gain temporary hit points equal to your level + your Constitution bonus (minimum of 1). While shifting, you gain advantage on all Wisdon-based checks and saving throws.</text>
+            <text>    You must finish a short or long rest before you can shift again.</text>
         </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and Sylvan.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Tabaxi</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Dex 2, Cha 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Charisma score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You have a cat's keen senses, especially in the dark. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Feline Agility</name>
+            <text>Your reflexes and agility allow you to move with a burst of speed. When you move on your turn in combat, you can double your speed until the end of the turn. Once you use this trait, you can't use it again until you move 0 feet on one of your turns.</text>
+        </trait>
+        <trait>
+            <name>Cat's Claws</name>
+            <text>Because of your claws, you have a climbing speed of 20 feet. In addition, your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to ld4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+        </trait>
+        <trait>
+            <name>Cat's Talent</name>
+            <text>You have proficiency in the Perception and Stealth skills.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and one other language of your choice.</text>
         </trait>
     </race>
     <race>
@@ -944,6 +1434,10 @@
         <size>M</size>
         <speed>30</speed>
         <ability>Cha 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
         <trait>
             <name>Darkvision</name>
             <text>Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
@@ -954,7 +1448,7 @@
         </trait>
         <trait>
             <name>Infernal Legacy</name>
-            <text>You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.\n</text>
+            <text>You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the hellish rebuke spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
             <text>Darkness; Player's Handbook page 230.</text>
             <text>Hellish rebuke; Player's Handbook page 250.</text>
             <text>Thaumaturgy; Player's Handbook page 282.</text>
@@ -970,6 +1464,10 @@
         <speed>30</speed>
         <ability>Dex 2, Int 1</ability>
         <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Dexterity score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
+        <trait>
             <name>Darkvision</name>
             <text>Thanks to your infernal heritage, you have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
         </trait>
@@ -983,15 +1481,19 @@
         </trait>
         <trait>
             <name>Variant Feature</name>
-            <text>Choose one of the below options:\n</text>
-            <text>Devil's Tongue. You know the vicious mockery cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.\n</text>
-            <text>Charm person; Player's Handbook page 221.</text>
-            <text>Enthrall; Player's Handbook page 238.</text>
-            <text>Vicious mockery; Player's Handbook page 285.\n</text>
-            <text>Hellfire. You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the burning hands spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.\n</text>
-            <text>Burning hands; Player's Handbook page 220.</text>
-            <text>Darkness; Player's Handbook page 230.</text>
-            <text>Thaumaturgy; Player's Handbook page 282.\n</text>
+            <text>Choose one of the below options:</text>
+            <text>Devil's Tongue. You know the vicious mockery cantrip. When you reach 3rd level, you can cast the charm person spell as a 2nd-level spell once with this trait. When you reach 5th level, you can cast the enthrall spell once with this trait. You must finish a long rest to cast these spells once again with this trait. Charisma is your spellcasting ability for them. This trait replaces the Infernal Legacy trait.</text>
+            <text />
+            <text>Charm person: Player's Handbook page 221</text>
+            <text>Enthrall: Player's Handbook page 238</text>
+            <text>Vicious mockery: Player's Handbook page 285</text>
+            <text />
+            <text>Hellfire. You know the thaumaturgy cantrip. Once you reach 3rd level, you can cast the burning hands spell as a 2nd-level spell; you must finish a long rest in order to cast the spell again using this trait. Once you reach 5th level, you can also cast the darkness spell; you must finish a long rest in order to cast the spell again using this trait. Charisma is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Burning hands: Player's Handbook page 220</text>
+            <text>Darkness: Player's Handbook page 230</text>
+            <text>Thaumaturgy: Player's Handbook page 282</text>
+            <text />
             <text>Winged. You have bat-like wings sprouting from your shoulder blades. You have a flying speed of 30 feet. This trait replaces the Infernal Legacy trait.</text>
         </trait>
         <trait>
@@ -1000,10 +1502,86 @@
         </trait>
     </race>
     <race>
+        <name>Tortle</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Str 2, Wis 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 2, and your Wisdom score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Claws</name>
+            <text>Your claws are natural weapons, which you can use to make unarmed strikes. If you hit with them, you deal slashing damage equal to 1d4 + your Strength modifier, instead of the bludgeoning damage normal for an unarmed strike.</text>
+        </trait>
+        <trait>
+            <name>Hold Breath</name>
+            <text>You can hold your breath for up to 1 hour at a time. Tortles aren't natural swimmers, but they can remain underwater for some time before needing to come up for air.</text>
+        </trait>
+        <trait>
+            <name>Natural Armor</name>
+            <text>Due to your shell and the shape of your body, you are ill-suited to wearing armor. Your shell provides ample protection, however; it gives you a base of AC 17 (your Dexterity modifier doesn't affect this number). You gain no benefit from wearing armor, but if you are using a shield, you can apply the shield's bonus as normal.</text>
+        </trait>
+        <trait>
+            <name>Shell Defense</name>
+            <text>You can withdraw into your shell as an action. Until you emerge, you gain a +4 bonus to AC, and you have advantage on Strength and Constitution saving throws. While in your shell, you are prone, your speed is 0 and can't increase, you have disadvantage on Dexterity saving throws, you can't take reactions, and the only action you can take is a bonus action to emerge from your shell.</text>
+        </trait>
+        <trait>
+            <name>Survival Instinct</name>
+            <text>You gain proficiency in the Survival skill.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Aquan.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Triton</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Str 1, Con 1, Cha 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 1, your Constitution score increases by 1, and your Charisma score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Swim</name>
+            <text>You have a swimming speed of 30 feet.</text>
+        </trait>
+        <trait>
+            <name>Amphibious</name>
+            <text>You can breathe air and water.</text>
+        </trait>
+        <trait>
+            <name>Control Air and Water</name>
+            <text>A child of the sea, you can call on the magic of elemental air and water. You can cast fog cloud with this trait. Starting at 3rd level, you can cast gust of wind with it, and starting at 5th level, you can also cast wall of water with it. Once you cast a spell with this trait, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Fog cloud: Player's Handbook page 243</text>
+            <text>Gust of wind: Player's Handbook page 248</text>
+            <text>Wall of water: Volo's Guide to Monsters page 116</text>
+        </trait>
+        <trait>
+            <name>Emissary of the Sea</name>
+            <text>Aquatic beasts have an extraordinary affinity with your people. You can communicate simple ideas with beasts that can breathe water. They can understand the meaning of your words, though you have no special ability to understand them in return.</text>
+        </trait>
+        <trait>
+            <name>Guardian of the Depths</name>
+            <text>Adapted to even the most extreme ocean depths, you have resistance to cold damage, and you ignore any of the drawbacks caused by a deep, underwater environment.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common and Primordial.</text>
+        </trait>
+    </race>
+    <race>
         <name>Warforged</name>
         <size>M</size>
         <speed>30</speed>
         <ability>Str 1, Con 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Strength score increases by 1, and your Constitution score increases by 1.</text>
+        </trait>
         <trait>
             <name>Composite Plating</name>
             <text>Your construction incorporates wood and metal, granting you a +1 bonus to Armor Class.</text>
@@ -1011,11 +1589,45 @@
         <trait>
             <name>Living Construct</name>
             <text>Even though you were constructed, you are a living creature. You are immune to disease. You do not need to eat or breathe, but you can ingest food and drink if you wish.</text>
-            <text>&#009;Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</text>
+            <text>    Instead of sleeping, you enter an inactive state for 4 hours each day. You do not dream in this state; you are fully aware of your surroundings and notice approaching enemies and other events as normal.</text>
         </trait>
         <trait>
             <name>Languages</name>
             <text>You can speak, read, and write Common and one other language of your choice.</text>
+        </trait>
+    </race>
+    <race>
+        <name>Yuan-ti Pureblood</name>
+        <size>M</size>
+        <speed>30</speed>
+        <ability>Cha 2, Int 1</ability>
+        <trait>
+            <name>Ability Score Increase</name>
+            <text>Your Charisma score increases by 2, and your Intelligence score increases by 1.</text>
+        </trait>
+        <trait>
+            <name>Darkvision</name>
+            <text>You have superior vision in dark and dim conditions. You can see in dim light within 60 feet of you as if it were bright light, and in darkness as if it were dim light. You can't discern color in darkness, only shades of gray.</text>
+        </trait>
+        <trait>
+            <name>Innate Spellcasting</name>
+            <text>You know the poison spray cantrip. You can cast animal friendship an unlimited number of times with this trait, but you can target only snakes with it. Starting at 3rd level, you can also cast suggestion with this trait. Once you cast it, you can't do so again until you finish a long rest. Charisma is your spellcasting ability for these spells.</text>
+            <text />
+            <text>Animal friendship: Player's Handbook page 212</text>
+            <text>Poison spray: Player's Handbook page 266</text>
+            <text>Suggestion: Player's Handbook page 279</text>
+        </trait>
+        <trait>
+            <name>Magic Resistance</name>
+            <text>You have an advantage on saving throws against spells and other magical effects.</text>
+        </trait>
+        <trait>
+            <name>Poison Immunity</name>
+            <text>You are immune to poison damage and the poisoned condition.</text>
+        </trait>
+        <trait>
+            <name>Languages</name>
+            <text>You can speak, read, and write Common, Abyssal, and Draconic.</text>
         </trait>
     </race>
 </compendium>
